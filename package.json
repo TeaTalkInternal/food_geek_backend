@@ -1,0 +1,19 @@
+{
+  "name": "food_geek_backend",
+  "version": "1.0.0",
+  "description": "Backend API of ordering food written in Node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeaTalkInternal/food_geek_backend.git"
+  },
+  "author": "Kevin Vishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeaTalkInternal/food_geek_backend/issues"
+  },
+  "homepage": "https://github.com/TeaTalkInternal/food_geek_backend#readme"
+}
