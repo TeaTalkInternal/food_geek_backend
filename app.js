@@ -18,7 +18,7 @@ app.use(cors());
 app.use(helmet());
 
 //Redirect request to respective classes
-app.use('/', (req, res, next) => {
+app.use('/food_geek_backend/', (req, res, next) => {
     res.status(401).json({
         'message': 'Invalid Access'
     });
