@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/food_geek_backend/
+    - export DEPLOYPATH=/home/teatalkt/food_geek_backend/
     - /bin/cp -a * $DEPLOYPATH
