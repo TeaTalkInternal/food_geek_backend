@@ -20,7 +20,7 @@ app.use(helmet());
 //Redirect request to respective classes
 app.use('/', (req, res, next) => {
     res.status(401).json({
-        'message': 'Access Denied'
+        'message': 'Invalid Access'
     });
 });
 
