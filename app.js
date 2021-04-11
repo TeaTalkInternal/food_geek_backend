@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const cors = require('cors');
 const mysql = require('mysql2');
-const category_route = require("./routes/category_route.js");
-const user_route = require("./routes/user_route.js");
+const category_route = require("./routes/category_route");
+const user_route = require("./routes/user_route");
 
 require('dotenv/config');
 

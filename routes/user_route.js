@@ -1,7 +1,7 @@
 const express = require('express');
 require('dotenv/config');
 const Router = express.Router();
-const utility = require('../utils/utility.js');
+const utility = require('../utils/utility');
 
 
 /*

@@ -1,7 +1,7 @@
-const utility = require("../utils/utility.js");
+const utility = require("../utils/utility");
 require('dotenv').config();
-const user_auth = require("../utils/user_auth.js");
-const dbPool = require('../utils/database.js');
+const user_auth = require("../utils/user_auth");
+const dbPool = require('../utils/database');
 
 const express = require('express');
 const Router = express.Router();
