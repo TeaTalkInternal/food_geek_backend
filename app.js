@@ -4,6 +4,8 @@ const bodyParser = require('body-parser');
 const helmet = require('helmet');
 const cors = require('cors');
 const mysql = require('mysql2');
+const category_route = require("./routes/category_route.js");
+const user_route = require("./routes/user_route.js");
 
 require('dotenv/config');
 
@@ -18,7 +20,12 @@ app.use(cors());
 app.use(helmet());
 
 //Redirect request to respective classes
+
+app.use('/category', category_route);
+app.use('/user', user_route);
+//Default route
 app.use('/', (req, res, next) => {
+    res.setHeader('Content-Type', 'application/json');
     res.status(401).json({
         'message': 'Invalid Access'
     });
